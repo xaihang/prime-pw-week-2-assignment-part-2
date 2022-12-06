@@ -72,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable isStudent and assigned it to true (boolean); we make another variable called age and assigned it to 34 (number); lastly we make a variable called zip and assigned to 55407 (number)
+// then we check if variable isStudent is (checking type and value) true and if the zip 55407 is greater than 80000; then console.log(`You're a student on the West Coast!`); 
+// else if isStudent is equal to false OR age is less than 30 then   console.log('What are your hobbies?')
+// else if isStudent is equal to true than  console.log('Welcome to Prime!');
+//else  by default it will console.log('How about the weather?'
+//the condition statement criteria will return  console.log('Welcome to Prime!' instead
+
 
 //CODE
 /*
