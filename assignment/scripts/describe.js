@@ -19,17 +19,17 @@ let number = 1;
 number++;
 
 if (number >= 2) {
-  console.log('yes');
+  console.log('yes'); 
 }
 
 */
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called name and set it to Dane as a string.
+// then we check if the name is equal (checking the type and value) to Mary.
+// if it is than it will console.log 'Hi, Mary!' however in this situation the name is not Mary but Dane; 
+//therefore, it will console.log 'How do you do?' instead.
 
 //CODE
 /*
@@ -129,13 +129,19 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+
+// FIX - is to set colorTwo to purple too
+
+
 if (mix === true) {
   colorOne = 'purple';
+// Should be colorTwo = 'purple'
 }
 */
 
@@ -147,7 +153,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+
+//FIXED: is to change the || to && operator 
+//should be:  if (temp > 39 && time >= 4) {  
+if (temp > 39 || time >= 4) {  
   console.log('throw away the food!');
 }
 */
@@ -156,14 +165,17 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
-/*
-let age = 21;
-const minAge = 21;
+//FIXED: change the console.log message
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
-  console.log('enter');
-}
-*/
+// /*
+// let age = 21;
+// const minAge = 21;
 
+// if(minAge <= age) {
+// should be: console.log('enter');
+//   console.log('no entry');
+// } else {
+//   should be: console.log('no entry');
+//   console.log('enter');
+// }
+// */
