@@ -75,11 +75,20 @@ console.log(secret)
 // we make a variable isStudent and assigned it to true (boolean)
 //we make another variable called age and assigned it to 34 (number)
 //lastly we make a variable called zip and assigned to 55407 (number)
-// in the conditional statement, first we check if variable isStudent is (checking type and value) equal to assigned variable (true) AND (&&) if the zip 55407 is greater than 80000; if yes then console will print: `You're a student on the West Coast!
-// otherwise if (else if) isStudent is equal to false OR (||) age is less than 30, then the console will print: 'What are your hobbies?'
-// if not the first or second statement then check if isStudent is equal to true, if yes then the console will print: 'Welcome to Prime!'
-//lastly if none of the top three condition are met then by default the console will print: 'How about the weather?'
-//based on our declared variables we when run through the conditional statements the console will print: 'Welcome to Prime!' instead 
+
+// in the conditional statement:
+// first statement: we check if variable isStudent is (checking type and value) equal to assigned variable (true) AND (&&) if the zip 55407 is greater than 80000; if yes then console will print: You're a student on the West Coast!
+//per our declared variables isStudent is equal to true, however the zip 55407 is NOT greater than 80000; therefore the first statement is not valid - and it will led us to the second statement
+
+// second statement: if (else if) isStudent is equal to false OR (||) age is less than 30, then the console will print: What are your hobbies?
+//per our declared variables isStudent is true instead of false, therefore it does not meet the second condition and it will kick us to the next (3rd) conditional statement
+
+//third statement: if not the first or second statement then check if isStudent is equal to true, if yes then the console will print: Welcome to Prime!
+// per our declared variables isStudent is equal to true and that's the only condition we are looking for therefore our condition check stop at this statement
+//and when console.log, the console will print: Welcome to Prime!
+
+//lastly if none of the top three conditions are met then by default the console will print: How about the weather? 
+//however, based on our declared variables we will never make it to this stop because it met one of the condition above. 
 
 //CODE
 /*
@@ -131,8 +140,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//FIX - set colorOne to 'blue'
 let colorOne = 'red';
+
+//FIX - set colorTwo to 'red'
 let colorTwo = 'blue';
+
 let mix = true;
 
 
@@ -141,7 +155,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-// Should be colorTwo = 'purple'
+// FIX - colorTwo - set: colorTwo = 'purple' 
 }
 */
 
