@@ -168,7 +168,7 @@ if (mix === true) {
 const time = 4;
 
 
-//FIXED: is to change the || to && operator 
+//FIX: is to change the || to && operator 
 //should be:  if (temp > 39 && time >= 4) {  
 if (temp > 39 || time >= 4) {  
   console.log('throw away the food!');
@@ -179,17 +179,17 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
-//FIXED: change the console.log message
+//FIX: change the console.log message around
 
 // /*
 // let age = 21;
 // const minAge = 21;
 
 // if(minAge <= age) {
-// should be: console.log('enter');
+// FIX- should be: console.log('enter');
 //   console.log('no entry');
 // } else {
-//   should be: console.log('no entry');
+// FIX -  should be: console.log('no entry');
 //   console.log('enter');
 // }
 // */
