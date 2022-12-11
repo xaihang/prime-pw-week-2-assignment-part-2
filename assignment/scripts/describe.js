@@ -72,12 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// we make a variable isStudent and assigned it to true (boolean); we make another variable called age and assigned it to 34 (number); lastly we make a variable called zip and assigned to 55407 (number)
-// then we check if variable isStudent is (checking type and value) true and if the zip 55407 is greater than 80000; then console.log(`You're a student on the West Coast!`);
-// else if isStudent is equal to false OR age is less than 30 then   console.log('What are your hobbies?')
-// else if isStudent is equal to true than  console.log('Welcome to Prime!');
-//else  by default it will console.log('How about the weather?'
-//the condition statement criteria will return  console.log('Welcome to Prime!' instead
+// we make a variable isStudent and assigned it to true (boolean)
+//we make another variable called age and assigned it to 34 (number)
+//lastly we make a variable called zip and assigned to 55407 (number)
+// in the conditional statement, first we check if variable isStudent is (checking type and value) equal to assigned variable (true) AND (&&) if the zip 55407 is greater than 80000; if yes then console will print: `You're a student on the West Coast!
+// otherwise if (else if) isStudent is equal to false OR (||) age is less than 30, then the console will print: 'What are your hobbies?'
+// if not the first or second statement then check if isStudent is equal to true, if yes then the console will print: 'Welcome to Prime!'
+//lastly if none of the top three condition are met then by default the console will print: 'How about the weather?'
+//based on our declared variables we when run through the conditional statements the console will print: 'Welcome to Prime!' instead 
 
 //CODE
 /*
